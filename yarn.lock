@@ -71,6 +71,14 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
+apple-api@^2.2.5:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/apple-api/-/apple-api-2.2.5.tgz#012b1a02d296ab9dc96d3a1521b06bba77725d5a"
+  integrity sha512-s+/49O+bUmQcEp0P4IbaMzhhSsQO2Hio5EVBBwIl0xuA6FZPWS698DQMFQDUvp7VfXOJ0JKbePOxpJ4rtv0+4A==
+  dependencies:
+    json-bigint "^1.0.0"
+    ws "^7.5.0"
+
 aproba@^1.0.3:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/aproba/-/aproba-1.2.0.tgz#6802e6264efd18c790a1b0d517f0f2627bf2c94a"
@@ -512,14 +520,6 @@ has@^1.0.3:
   integrity sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
   dependencies:
     function-bind "^1.1.1"
-
-apple-api@^2.2.4:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/apple-api/-/apple-api-2.2.4.tgz#b4662cd7529f1d641b18fe5c9a59d7020bb79462"
-  integrity sha512-3b0hOmm2VjMBnPHBBR5f5goE7zHHF1UF83j4jWSEi66XGZ0me2N5ns5MLculVYQhm0mkKlBH86RNbSCO1gLqeA==
-  dependencies:
-    json-bigint "^1.0.0"
-    ws "^7.5.0"
 
 https-proxy-agent@^5.0.0:
   version "5.0.0"
